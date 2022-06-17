@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- ExodusOS additions -->
+  <project path="android" name="ExodusOS/android" />
+  <project path="vendor/lineage" name="ExodusOS/android_vendor_exodus" />
+</manifest>
