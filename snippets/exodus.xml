@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- ExodusOS additions -->
+  <project path="android" name="ExodusOS/android" />
+  <project path="vendor/lineage" name="ExodusOS/android_vendor_exodus" />
+  <project path="frameworks/base" name="ExodusOS/android_frameworks_base" />
+  
+  <!-- Packages repos -->
+  <!--   <project path="packages/apps/FaceUnlockService" name="ExodusOS/android_packages_apps_FaceUnlockService"/> -->
+    <project path="packages/overlays/Lineage" name="ExodusOS/android_packages_overlays_exodus" />
+  <project path="packages/apps/Settings" name="ExodusOS/android_packages_apps_Settings" />
+</manifest>
