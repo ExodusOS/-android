@@ -11,7 +11,8 @@
    <project path="packages/overlays/Lineage" name="ExodusOS/android_packages_overlays_exodus" />
    <project path="packages/apps/Settings" name="ExodusOS/android_packages_apps_Settings" />
    <project path="packages/apps/ExodusSettings" name="ExodusOS/android_packages_apps_ExodusSettings" />
-   
+   <project path="packages/services/Telecomm" name="ExodusOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+	 
    <project path="vendor/support" name="ExodusOS/vendor_custom_preference" />
   
    <!-- ProtonAOSP repositories -->
