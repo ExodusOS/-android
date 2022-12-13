@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-   <!-- ExodusOS additions -->
-   <project path="android" name="ExodusOS/android" />
-   <project path="vendor/lineage" name="ExodusOS/android_vendor_exodus" />
-   <project path="frameworks/base" name="ExodusOS/android_frameworks_base" />
-   <project path="lineage-sdk" name="ExodusOS/android_exodus-sdk" />
+     <!-- ExodusOS additions -->
+     <project path="android" name="ExodusOS/android" />
+     <project path="vendor/lineage" name="ExodusOS/android_vendor_exodus" />
+     <project path="frameworks/base" name="ExodusOS/android_frameworks_base" />
+     <project path="lineage-sdk" name="ExodusOS/android_exodus-sdk" />
   
-   <!-- Packages repos -->
-   <!--   <project path="packages/apps/FaceUnlockService" name="ExodusOS/android_packages_apps_FaceUnlockService"/> -->
-   <project path="packages/overlays/Lineage" name="ExodusOS/android_packages_overlays_exodus" />
-   <project path="packages/apps/Settings" name="ExodusOS/android_packages_apps_Settings" />
-   <project path="packages/apps/ExodusSettings" name="ExodusOS/android_packages_apps_ExodusSettings" />
-   <project path="packages/apps/Updater" name="ExodusOS/android_packages_apps_Updater" />
-   <project path="packages/services/Telecomm" name="ExodusOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+     <!-- Packages repos -->
+     <!--     <project path="packages/apps/FaceUnlockService" name="ExodusOS/android_packages_apps_FaceUnlockService"/> -->
+     <project path="packages/overlays/Lineage" name="ExodusOS/android_packages_overlays_exodus" />
+     <project path="packages/apps/Settings" name="ExodusOS/android_packages_apps_Settings" />
+     <project path="packages/apps/ExodusSettings" name="ExodusOS/android_packages_apps_ExodusSettings" />
+     <project path="packages/apps/Updater" name="ExodusOS/android_packages_apps_Updater" />
+     <project path="packages/services/Telecomm" name="ExodusOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
 	 
-   <project path="vendor/support" name="ExodusOS/vendor_custom_preference" />
+     <project path="vendor/support" name="ExodusOS/vendor_custom_preference" />
   
-   <!-- ProtonAOSP repositories -->
-   <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" revision="main" />
+     <!-- ProtonAOSP repositories -->
+     <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" revision="main" />
 </manifest>
