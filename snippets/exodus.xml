@@ -13,7 +13,9 @@
      <project path="packages/apps/ExodusSettings" name="ExodusOS/android_packages_apps_ExodusSettings" />
      <project path="packages/apps/Updater" name="ExodusOS/android_packages_apps_Updater" />
      <project path="packages/services/Telecomm" name="ExodusOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+	 <project path="packages/apps/Backgrounds" name="ExodusOS/android_packages_apps_Backgrounds" />
 	 
+	 <project path="vendor/pixel-framework" name="ExodusOS/android_external_pixel-framework" />
      <project path="vendor/support" name="ExodusOS/vendor_custom_preference" />
 
      <!-- ExodusAOSP repositories -->
@@ -21,4 +23,6 @@
 	
      <!-- ProtonAOSP repositories -->
      <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" revision="main" />
-</manifest>
+	 
+	 <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
+	 </manifest>
