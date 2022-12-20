@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-     <!-- ExodusOS additions -->
-     <project path="android" name="ExodusOS/android" />
-     <project path="vendor/lineage" name="ExodusOS/android_vendor_exodus" />
-     <project path="frameworks/base" name="ExodusOS/android_frameworks_base" />
-     <project path="lineage-sdk" name="ExodusOS/android_exodus-sdk" />
-  
-     <!-- Packages repos -->
-     <!--     <project path="packages/apps/FaceUnlockService" name="ExodusOS/android_packages_apps_FaceUnlockService"/> -->
-     <project path="packages/overlays/Lineage" name="ExodusOS/android_packages_overlays_exodus" />
-     <project path="packages/apps/Settings" name="ExodusOS/android_packages_apps_Settings" />
-     <project path="packages/apps/ExodusSettings" name="ExodusOS/android_packages_apps_ExodusSettings" />
-     <project path="packages/apps/Updater" name="ExodusOS/android_packages_apps_Updater" />
-     <project path="packages/services/Telecomm" name="ExodusOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
-     <project path="packages/apps/Backgrounds" name="ExodusOS/android_packages_apps_Backgrounds" />
-	 
-     <project path="vendor/support" name="ExodusOS/vendor_custom_preference" />
 
-     <!-- ExodusAOSP repositories -->
-     <project name="ExodusOS/exodus_vendor_RomOTA" path="vendor/RomOTA" remote="github" revision="squirrel" />
-	
-     <!-- ProtonAOSP repositories -->
-     <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" revision="main" />
-	 
-     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
+  <!-- ExodusOS additions -->
+  <project path="android" name="ExodusOS/android" />
+  <project path="vendor/lineage" name="ExodusOS/android_vendor_exodus" />
+  <project path="frameworks/base" name="ExodusOS/android_frameworks_base" />
+  <project path="lineage-sdk" name="ExodusOS/android_exodus-sdk" />
+
+  <!-- Packages repos -->
+  <!--  <project path="packages/apps/FaceUnlockService" name="ExodusOS/android_packages_apps_FaceUnlockService"/> -->
+  <project path="packages/overlays/Lineage" name="ExodusOS/android_packages_overlays_exodus" />
+  <project path="packages/apps/Settings" name="ExodusOS/android_packages_apps_Settings" />
+  <project path="packages/apps/ExodusSettings" name="ExodusOS/android_packages_apps_ExodusSettings" />
+  <project path="packages/apps/Updater" name="ExodusOS/android_packages_apps_Updater" />
+  <project path="packages/services/Telecomm" name="ExodusOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Backgrounds" name="ExodusOS/android_packages_apps_Backgrounds" />
+
+  <project path="vendor/support" name="ExodusOS/vendor_custom_preference" />
+
+  <!-- ExodusAOSP repositories -->
+  <project name="ExodusOS/exodus_vendor_RomOTA" path="vendor/RomOTA" remote="github" revision="squirrel" />
+
+  <!-- ProtonAOSP repositories -->
+  <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" revision="main" />
+
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
 </manifest>
