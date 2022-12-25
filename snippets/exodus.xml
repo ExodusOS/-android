@@ -15,10 +15,11 @@
   <project path="packages/apps/Updater" name="ExodusOS/android_packages_apps_Updater" />
   <project path="packages/services/Telecomm" name="ExodusOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Backgrounds" name="ExodusOS/android_packages_apps_Backgrounds" />
-    <project path="packages/apps/Trebuchet" name="ExodusOS/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="ExodusOS/android_packages_apps_Trebuchet" />
 
   <project path="vendor/support" name="ExodusOS/vendor_custom_preference" />
-
+  <project path="system/core" name="ExodusOS/android_system_core" groups="pdk" />
+  
   <!-- ExodusAOSP repositories -->
   <project name="ExodusOS/exodus_vendor_RomOTA" path="vendor/RomOTA" remote="github" revision="squirrel" />
 
