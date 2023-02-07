@@ -26,7 +26,7 @@
   <project name="ExodusOS/exodus_vendor_RomOTA" path="vendor/RomOTA" remote="github" revision="squirrel" />
 
   <!-- ProtonAOSP repositories -->
-  <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" revision="main" />
-
+  <project path="packages/apps/RepainterServicePriv" name="ExodusOS/android_packages_apps_RepainterServicePriv" />
+  
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
 </manifest>
