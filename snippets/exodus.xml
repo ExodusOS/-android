@@ -14,8 +14,6 @@
      <project path="packages/apps/Updater" name="ExodusOS/android_packages_apps_Updater" />
      <project path="packages/services/Telecomm" name="ExodusOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
 	 
-	 <project path="vendor/pixel-framework" name="ExodusOS/android_external_pixel-framework" />
-	 
      <project path="vendor/support" name="ExodusOS/vendor_custom_preference" />
 
      <!-- ExodusAOSP repositories -->
