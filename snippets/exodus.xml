@@ -5,6 +5,7 @@
      <project path="vendor/lineage" name="ExodusOS/android_vendor_exodus" />
      <project path="frameworks/base" name="ExodusOS/android_frameworks_base" />
      <project path="lineage-sdk" name="ExodusOS/android_exodus-sdk" />
+     <project path="frameworks/libs/net" name="ExodusOS/android_frameworks_libs_net" />
   
      <!-- Packages repos -->
      <!--     <project path="packages/apps/FaceUnlockService" name="ExodusOS/android_packages_apps_FaceUnlockService"/> -->
